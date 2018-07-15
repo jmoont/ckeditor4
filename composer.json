@@ -1,0 +1,40 @@
+{
+    "name": "jmoont/ckeditor4",
+    "description": "CKEditor 4 for Craft CMS",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "ckeditor4"
+    ],
+    "support": {
+        "docs": "https://github.com/jmoont/ckeditor4/blob/master/README.md",
+        "issues": "https://github.com/jmoont/ckeditor4/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Moont",
+            "homepage": "twitter.com/moonty"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "jmoont\\ckeditor4\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "CKEditor4",
+        "handle": "ckeditor4",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/jmoont/ckeditor4/master/CHANGELOG.md",
+        "class": "jmoont\\ckeditor4\\CKEditor4"
+    }
+}

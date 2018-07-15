@@ -1,0 +1,11 @@
+{
+  "name": "ckeditor4",
+  "version": "1.0.0",
+  "description": "CKEditor 4 for Craft CMS",
+  "dependencies": {
+    "ckeditor": "^4.10.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "MIT"
+}
