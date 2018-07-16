@@ -9,7 +9,7 @@ gulp.task('ckeditor', function() {
         ckeditorPath+'/config.js', 
         ckeditorPath+'/styles.js', 
         ckeditorPath+'/lang/en-gb.js', 
-        ckeditorPath+'/skins/moono-lisa/*',
+        ckeditorPath+'/skins/moono-lisa/**/*',
         ckeditorPath+'/plugins/**/*',
         '!'+ckeditorPath+'/plugins/**/lang/!(en-gb.js)',
         ckeditorPath+'/contents.css',
