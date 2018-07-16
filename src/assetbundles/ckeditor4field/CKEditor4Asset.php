@@ -29,7 +29,7 @@ class CKEditor4Asset extends AssetBundle
      */
     public function init()
     {
-        $this->sourcePath = dirname(__DIR__, 3).'/node_modules/ckeditor';
+        $this->sourcePath = dirname(__DIR__, 3).'/lib/ckeditor/dist';
 
         $this->depends = [
             CpAsset::class,

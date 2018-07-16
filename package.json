@@ -2,10 +2,10 @@
   "name": "ckeditor4",
   "version": "1.0.0",
   "description": "CKEditor 4 for Craft CMS",
-  "dependencies": {
+  "devDependencies": {
+    "gulp": "^3.9.1",
     "ckeditor": "^4.10.0"
   },
-  "devDependencies": {},
   "author": "",
   "license": "MIT"
 }
