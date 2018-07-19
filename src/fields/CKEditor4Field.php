@@ -22,6 +22,7 @@ use craft\helpers\FileHelper;
 use craft\helpers\HtmlPurifier;
 use craft\helpers\StringHelper;
 use craft\helpers\Template;
+use yii\web\View;
 use yii\db\Schema;
 
 /**
