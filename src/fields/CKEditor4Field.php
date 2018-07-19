@@ -145,15 +145,15 @@ class CKEditor4Field extends Field
 
         $js = <<<JS
         var CKEDITOR_BASEPATH = '/lib/ckeditor/dist/';
-        jQuery(document).ready(function() {
+        jQuery(function ($) {
             CKEDITOR.replace( '{$nsId}' );
         });
 JS;
         $css = <<<CSS
 
 CSS;
-        $view->registerJs($js);
         $view->registerAssetBundle(CKEditor4Asset::class);
+        $view->registerJs($js, View::POS_HEAD);
         $view->registerCss($css);
         return "<textarea id='{$id}' name='{$this->handle}'>{$encValue}</textarea>";
     }
