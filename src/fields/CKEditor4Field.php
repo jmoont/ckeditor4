@@ -146,9 +146,9 @@ class CKEditor4Field extends Field
 
         $js = <<<JS
         var CKEDITOR_BASEPATH = '/lib/ckeditor/dist/';
-        jQuery(function ($) {
+        window.onload = function() {
             CKEDITOR.replace( '{$nsId}' );
-        });
+        };
 JS;
         $css = <<<CSS
 
