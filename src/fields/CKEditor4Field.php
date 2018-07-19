@@ -145,7 +145,7 @@ class CKEditor4Field extends Field
         $encValue = htmlentities((string)$value, ENT_NOQUOTES, 'UTF-8');
 
         $js = <<<JS
-        var CKEDITOR_BASEPATH = '/lib/ckeditor/dist/';
+        //var CKEDITOR_BASEPATH = '/lib/ckeditor/dist/';
         window.onload = function() {
             CKEDITOR.replace( '{$nsId}' );
         };
