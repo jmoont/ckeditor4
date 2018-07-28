@@ -6,6 +6,7 @@ var libPath = 'lib';
 gulp.task('ckeditor', function() {
     return gulp.src([
         ckeditorPath+'/ckeditor.js', 
+        ckeditorPath+'/*.md', 
         ckeditorPath+'/config.js', 
         ckeditorPath+'/styles.js', 
         ckeditorPath+'/lang/en-gb.js', 
